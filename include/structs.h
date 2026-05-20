@@ -3,32 +3,34 @@
 
 typedef struct {
 
-    char nama[100];
+    char area_name[100];
 
-    int rumahDiperiksa;
-    int rumahPositif;
+    int rumah_diperiksa;
+    int rumah_positif;
 
-    int wadahDiperiksa;
-    int wadahPositif;
+    int wadah_diperiksa;
+    int wadah_positif;
 
-    float kepadatan;
-    float curahHujan;
-    float temperatur;
+    float population_density;
+    float rainfall;
+    float temperature;
 
-    float HI;
-    float CI;
-    float BI;
+    float hi;
+    float ci;
+    float bi;
 
-    float skorHI;
-    float skorBI;
-    float skorTemp;
-    float skorCH;
-    float skorPop;
+    float hi_score;
+    float ci_score;
+    float bi_score;
 
-    float DRI;
+    float temp_score;
+    float rain_score;
+    float pop_score;
 
-    char status[20];
+    float dri;
 
-} Wilayah;
+    char risk_status[20];
+
+} DengueData;
 
 #endif

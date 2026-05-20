@@ -1,7 +1,7 @@
 #ifndef CALCULATION_H
 #define CALCULATION_H
 
-#include "utility.h"
+#include "structs.h"
 
 //perhitungan stegomyia index
 
