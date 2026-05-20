@@ -1,0 +1,52 @@
+
+SAMPLE CASE 1 - HIGH RISK
+
+INPUT
+
+Area Name:
+Kemanggisan
+
+Checked Houses:
+200
+
+Positive Houses:
+60
+
+Checked Containers:
+450
+
+Positive Containers:
+90
+
+Population Density:
+18500
+
+Rainfall:
+230
+
+Temperature:
+31.5
+
+
+EXPECTED OUTPUT
+
+
+House Index (HI):
+30.00%
+
+Container Index (CI):
+20.00%
+
+Breteau Index (BI):
+45.00
+
+Dengue Risk Index (DRI):
+9.92
+
+Risk Status:
+CRITICAL
+
+Recommended Actions:
+- Fogging
+- Larval Source Reduction
+- Weekly Monitoring

@@ -1,0 +1,4 @@
+dengue
+*.exe
+*.o
+.vscode/
