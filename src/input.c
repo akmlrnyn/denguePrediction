@@ -3,10 +3,7 @@
 #include "../include/input.h"
 
 void tampilkanGuide() {
-
-    printf("========================================================\n");
     printf(" SISTEM PERINGATAN DINI RISIKO DBD\n");
-    printf("========================================================\n\n");
 
     printf("Program ini mensimulasikan tingkat risiko\n");
     printf("penyebaran Demam Berdarah Dengue (DBD).\n\n");
@@ -25,9 +22,7 @@ void tampilkanGuide() {
 
 void inputData(Wilayah *w) {
 
-    printf("\n========================================================\n");
     printf(" INPUT DATA WILAYAH\n");
-    printf("========================================================\n\n");
 
     printf("Nama wilayah: ");
     scanf(" %[^\n]", w->nama);
