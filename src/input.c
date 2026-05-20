@@ -3,7 +3,7 @@
 #include "../include/input.h"
 
 void tampilkanGuide() {
-    printf(" SISTEM PERINGATAN DINI RISIKO DBD\n");
+    printf("-------------- SISTEM PERINGATAN DINI RISIKO DBD --------------\n");
 
     printf("Program ini mensimulasikan tingkat risiko\n");
     printf("penyebaran Demam Berdarah Dengue (DBD).\n\n");
@@ -16,35 +16,35 @@ void tampilkanGuide() {
     printf("- Temperatur\n");
     printf("- Kepadatan penduduk\n\n");
 
-    printf("Tekan ENTER untuk memulai...");
+    printf("Tekan ENTER untuk memulai...\n");
     getchar();
 }
 
-void inputData(Wilayah *w) {
+void inputData(DengueData *data) {
 
-    printf(" INPUT DATA WILAYAH\n");
+    printf("-------------- INPUT DATA WILAYAH --------------\n");
 
     printf("Nama wilayah: ");
-    scanf(" %[^\n]", w->nama);
+    scanf(" %[^\\n]", data->area_name);
 
     printf("Jumlah rumah diperiksa: ");
-    scanf("%d", &w->rumahDiperiksa);
+    scanf("%d", &data->rumah_diperiksa);
 
     printf("Jumlah rumah positif jentik: ");
-    scanf("%d", &w->rumahPositif);
+    scanf("%d", &data->rumah_positif);
 
     printf("Jumlah wadah diperiksa: ");
-    scanf("%d", &w->wadahDiperiksa);
+    scanf("%d", &data->wadah_diperiksa);
 
     printf("Jumlah wadah positif jentik: ");
-    scanf("%d", &w->wadahPositif);
+    scanf("%d", &data->wadah_positif);
 
     printf("Kepadatan penduduk (jiwa/km^2): ");
-    scanf("%f", &w->kepadatan);
+    scanf("%f", &data->population_density  );
 
     printf("Curah hujan bulanan (mm): ");
-    scanf("%f", &w->curahHujan);
+    scanf("%f", &data->rainfall);
 
     printf("Temperatur rata-rata (C): ");
-    scanf("%f", &w->temperatur);
+    scanf("%f", &data->temperature);
 }

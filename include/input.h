@@ -5,6 +5,6 @@
 
 void tampilkanGuide();
 
-void inputData(Wilayah *w);
+void inputData(DengueData *data);
 
 #endif
