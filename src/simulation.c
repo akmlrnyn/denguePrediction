@@ -8,10 +8,10 @@ void simulasiIntervensi(DengueData *data) {
     float kampanye;
     float gabungan;
 
-    fogging = data->dri * 0.66;
-    lsr = data->dri * 0.52;
-    kampanye = data->dri * 0.72;
-    gabungan = data->dri * 0.28;
+    fogging = data->dri * 0.65;
+    lsr = data->dri * 0.50;
+    kampanye = data->dri * 0.75;
+    gabungan = data->dri * 0.30;
 
     printf("-------------- SIMULASI INTERVENSI --------------\n");
 
